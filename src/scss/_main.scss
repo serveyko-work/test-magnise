@@ -1,0 +1,22 @@
+@use "settings";
+@use "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: settings.$main-font;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+  outline: none;
+}
